@@ -31,10 +31,3 @@ Starts the Appium server that connects your test scripts with mobile devices.
 
 ---
 
-### ✨ Notes:
-- Everything inside ```bash will appear with **colorful highlighting** on GitHub.  
-- The emojis (🚀, ⚙️, 📱) are optional — they make your README look more polished.  
-
----
-
-Would you like me to **apply this formatting to your entire current README content** and give you the ready-to-paste version?
