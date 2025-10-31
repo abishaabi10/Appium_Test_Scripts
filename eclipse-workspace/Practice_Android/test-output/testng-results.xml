@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="29" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-31T13:41:54 IST" name="Suite" finished-at="2025-10-31T13:43:40 IST" duration-ms="106265">
+    <groups>
+    </groups>
+    <test started-at="2025-10-31T13:41:54 IST" name="Test" finished-at="2025-10-31T13:43:40 IST" duration-ms="106265">
+      <class name="testScripts.TestSuiteSetup">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:testScripts.TestSuiteSetup@6a78afa0]" started-at="2025-10-31T13:41:48 IST" name="startApp" finished-at="2025-10-31T13:41:54 IST" duration-ms="5723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testScripts.TestSuiteSetup@6a78afa0]" started-at="2025-10-31T13:43:40 IST" name="closeApp" finished-at="2025-10-31T13:43:41 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testScripts.TestSuiteSetup -->
+      <class name="testScripts.Gesture_SDemo">
+        <test-method signature="singleTap()[pri:1, instance:testScripts.Gesture_SDemo@9d5509a]" started-at="2025-10-31T13:42:50 IST" name="singleTap" description="Verify single tap gesture and validate displayed message." finished-at="2025-10-31T13:42:53 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleTap -->
+        <test-method signature="doubleTap()[pri:2, instance:testScripts.Gesture_SDemo@9d5509a]" started-at="2025-10-31T13:42:53 IST" name="doubleTap" description="Verify double tap gesture and validate displayed message." finished-at="2025-10-31T13:42:55 IST" duration-ms="1818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleTap -->
+        <test-method signature="longTap()[pri:3, instance:testScripts.Gesture_SDemo@9d5509a]" started-at="2025-10-31T13:42:55 IST" name="longTap" description="Verify long press gesture and validate the output text." finished-at="2025-10-31T13:42:58 IST" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longTap -->
+        <test-method signature="dragAndDrop()[pri:4, instance:testScripts.Gesture_SDemo@9d5509a]" started-at="2025-10-31T13:42:58 IST" name="dragAndDrop" description="Verify drag and drop gesture between two elements." finished-at="2025-10-31T13:43:00 IST" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method signature="navigateBack()[pri:5, instance:testScripts.Gesture_SDemo@9d5509a]" started-at="2025-10-31T13:43:00 IST" name="navigateBack" description="Navigate back to the previous screen using app or device back button." finished-at="2025-10-31T13:43:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+        <test-method signature="Back()[pri:6, instance:testScripts.Gesture_SDemo@9d5509a]" started-at="2025-10-31T13:43:00 IST" name="Back" finished-at="2025-10-31T13:43:11 IST" duration-ms="11033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back -->
+      </class> <!-- testScripts.Gesture_SDemo -->
+      <class name="testScripts.Alert">
+        <test-method signature="handleNativeAlert()[pri:1, instance:testScripts.Alert@185a6e9]" started-at="2025-10-31T13:42:45 IST" name="handleNativeAlert" description="Verify that native alert dialog is displayed and handled successfully" finished-at="2025-10-31T13:42:47 IST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleNativeAlert -->
+      </class> <!-- testScripts.Alert -->
+      <class name="testScripts.Language_03">
+        <test-method signature="RadioBtn()[pri:1, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:19 IST" name="RadioBtn" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:22 IST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioBtn -->
+        <test-method signature="Language_Count()[pri:2, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:22 IST" name="Language_Count" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:22 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Language_Count -->
+        <test-method signature="Withoutsel_language()[pri:3, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:22 IST" name="Withoutsel_language" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:23 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Withoutsel_language -->
+        <test-method signature="choose_Lag_Java()[pri:4, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:23 IST" name="choose_Lag_Java" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:26 IST" duration-ms="2759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choose_Lag_Java -->
+        <test-method signature="choose_Lag_C_CPlus()[pri:5, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:26 IST" name="choose_Lag_C_CPlus" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:29 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choose_Lag_C_CPlus -->
+        <test-method signature="choose_Lag_CSharp()[pri:6, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:29 IST" name="choose_Lag_CSharp" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:31 IST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choose_Lag_CSharp -->
+        <test-method signature="choose_Lag_C_JavaScript()[pri:7, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:31 IST" name="choose_Lag_C_JavaScript" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:34 IST" duration-ms="2948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choose_Lag_C_JavaScript -->
+        <test-method signature="Back()[pri:8, instance:testScripts.Language_03@1e800aaa]" started-at="2025-10-31T13:42:34 IST" name="Back" description="Validate the header text in Language screen" finished-at="2025-10-31T13:42:45 IST" duration-ms="10689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back -->
+      </class> <!-- testScripts.Language_03 -->
+      <class name="testScripts.ECHO_Message">
+        <test-method signature="echo_Message_btn()[pri:1, instance:testScripts.ECHO_Message@3eb738bb]" started-at="2025-10-31T13:42:10 IST" name="echo_Message_btn" finished-at="2025-10-31T13:42:13 IST" duration-ms="2564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- echo_Message_btn -->
+        <test-method signature="TestBoxValidation()[pri:2, instance:testScripts.ECHO_Message@3eb738bb]" started-at="2025-10-31T13:42:13 IST" name="TestBoxValidation" finished-at="2025-10-31T13:42:18 IST" duration-ms="5158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBoxValidation -->
+        <test-method signature="Back()[pri:3, instance:testScripts.ECHO_Message@3eb738bb]" started-at="2025-10-31T13:42:18 IST" name="Back" finished-at="2025-10-31T13:42:19 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back -->
+      </class> <!-- testScripts.ECHO_Message -->
+      <class name="testScripts.Counter_01">
+        <test-method signature="verifyCounterButtonClickable()[pri:1, instance:testScripts.Counter_01@233795b6]" started-at="2025-10-31T13:41:54 IST" name="verifyCounterButtonClickable" description="Verify Counter button is clickable" finished-at="2025-10-31T13:41:55 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCounterButtonClickable -->
+        <test-method signature="verifyIncrementButton()[pri:2, instance:testScripts.Counter_01@233795b6]" started-at="2025-10-31T13:41:55 IST" name="verifyIncrementButton" description="Verify counter value increases on &#039;+&#039; button click" finished-at="2025-10-31T13:41:57 IST" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncrementButton -->
+        <test-method signature="verifyDecrementButton()[pri:3, instance:testScripts.Counter_01@233795b6]" started-at="2025-10-31T13:41:57 IST" name="verifyDecrementButton" description="Verify counter value decreases on &#039;-&#039; button click" finished-at="2025-10-31T13:41:58 IST" duration-ms="1261" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Counter value did not decrease. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Counter value did not decrease. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testScripts.Counter_01.verifyDecrementButton(Counter_01.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDecrementButton -->
+        <test-method signature="verifyResetButton()[pri:4, instance:testScripts.Counter_01@233795b6]" started-at="2025-10-31T13:41:58 IST" name="verifyResetButton" description="Verify counter value resets to zero on reset button click" finished-at="2025-10-31T13:41:59 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetButton -->
+        <test-method signature="Back()[pri:5, instance:testScripts.Counter_01@233795b6]" started-at="2025-10-31T13:41:59 IST" name="Back" finished-at="2025-10-31T13:42:10 IST" duration-ms="11439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back -->
+      </class> <!-- testScripts.Counter_01 -->
+      <class name="testScripts.WebView">
+        <test-method signature="verifyGoButtonWithoutURL()[pri:1, instance:testScripts.WebView@179ece50]" started-at="2025-10-31T13:43:11 IST" name="verifyGoButtonWithoutURL" description="Verify clicking &#039;Go&#039; without entering a URL displays an error message." finished-at="2025-10-31T13:43:16 IST" duration-ms="5234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoButtonWithoutURL -->
+        <test-method signature="verifyClearButtonWithoutURL()[pri:2, instance:testScripts.WebView@179ece50]" started-at="2025-10-31T13:43:16 IST" name="verifyClearButtonWithoutURL" description="Verify clicking &#039;Clear&#039; without entering a URL displays an error message." finished-at="2025-10-31T13:43:20 IST" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClearButtonWithoutURL -->
+        <test-method signature="verifyWebNavigationFlow()[pri:3, instance:testScripts.WebView@179ece50]" started-at="2025-10-31T13:43:20 IST" name="verifyWebNavigationFlow" description="Verify entering a valid URL and navigating to the page." finished-at="2025-10-31T13:43:29 IST" duration-ms="8589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWebNavigationFlow -->
+        <test-method signature="navigateBack()[pri:4, instance:testScripts.WebView@179ece50]" started-at="2025-10-31T13:43:29 IST" name="navigateBack" description="Navigate back to the previous screen." finished-at="2025-10-31T13:43:29 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+      </class> <!-- testScripts.WebView -->
+      <class name="testScripts.Scale_Image_07">
+        <test-method signature="Image_Deduction()[pri:1, instance:testScripts.Scale_Image_07@6f03482]" started-at="2025-10-31T13:42:47 IST" name="Image_Deduction" finished-at="2025-10-31T13:42:49 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Image_Deduction -->
+        <test-method signature="CaptureImage()[pri:2, instance:testScripts.Scale_Image_07@6f03482]" started-at="2025-10-31T13:42:49 IST" name="CaptureImage" finished-at="2025-10-31T13:42:49 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureImage -->
+        <test-method signature="Back()[pri:8, instance:testScripts.Scale_Image_07@6f03482]" started-at="2025-10-31T13:42:49 IST" name="Back" finished-at="2025-10-31T13:42:50 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Back -->
+      </class> <!-- testScripts.Scale_Image_07 -->
+      <class name="testScripts.Countries_List_04">
+        <test-method signature="getCountriesList()[pri:1, instance:testScripts.Countries_List_04@3b0090a4]" started-at="2025-10-31T13:43:29 IST" name="getCountriesList" description="Fetch all countries from the list and measure execution time." finished-at="2025-10-31T13:43:40 IST" duration-ms="10899" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a28c3f1d-c4bd-4644-ba26-b0747e75389f, findElement {using=id, value=com.expandtesting.practice:id/btn_countries}]
+Capabilities {appium:appActivity: com.expandtesting.practice...., appium:appPackage: com.expandtesting.practice, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.expandtesting.practice...., appPackage: com.expandtesting.practice, automationName: UiAutomator2, deviceName: vivo 1915, platformName: ANDROID, platformVersion: 12.0, udid: YHB6TOS4Q8W8PF9X}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1915, appium:deviceName: YHB6TOS4Q8W8PF9X, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: YHB6TOS4Q8W8PF9X, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: YHB6TOS4Q8W8PF9X, appium:viewportRect: {height: 2256, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a28c3f1d-c4bd-4644-ba26-b0747e75389f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a28c3f1d-c4bd-4644-ba26-b0747e75389f, findElement {using=id, value=com.expandtesting.practice:id/btn_countries}]
+Capabilities {appium:appActivity: com.expandtesting.practice...., appium:appPackage: com.expandtesting.practice, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.expandtesting.practice...., appPackage: com.expandtesting.practice, automationName: UiAutomator2, deviceName: vivo 1915, platformName: ANDROID, platformVersion: 12.0, udid: YHB6TOS4Q8W8PF9X}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1915, appium:deviceName: YHB6TOS4Q8W8PF9X, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: YHB6TOS4Q8W8PF9X, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: YHB6TOS4Q8W8PF9X, appium:viewportRect: {height: 2256, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a28c3f1d-c4bd-4644-ba26-b0747e75389f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at testScripts.Countries_List_04.getCountriesList(Countries_List_04.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountriesList -->
+      </class> <!-- testScripts.Countries_List_04 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

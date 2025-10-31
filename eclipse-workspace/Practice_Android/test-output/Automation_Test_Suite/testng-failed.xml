@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Automation_Test_Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="appPackage" value="com.expandtesting.practice"/>
+  <parameter name="appActivity" value="com.expandtesting.practice.MainActivity"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <test thread-count="5" parallel="classes" name="Functional_Tests(failed)">
+    <classes>
+      <class name="testScripts.Alert">
+        <methods>
+          <include name="Back"/>
+        </methods>
+      </class> <!-- testScripts.Alert -->
+      <class name="testScripts.WebView">
+        <methods>
+          <include name="verifyGoButtonWithoutURL"/>
+        </methods>
+      </class> <!-- testScripts.WebView -->
+      <class name="testScripts.Language_03">
+        <methods>
+          <include name="choose_Lag_CSharp"/>
+          <include name="Withoutsel_language"/>
+          <include name="choose_Lag_Java"/>
+          <include name="Back"/>
+          <include name="Language_Count"/>
+          <include name="choose_Lag_C_JavaScript"/>
+          <include name="RadioBtn"/>
+          <include name="choose_Lag_C_CPlus"/>
+        </methods>
+      </class> <!-- testScripts.Language_03 -->
+      <class name="testScripts.Counter_01">
+        <methods>
+          <include name="verifyResetButton"/>
+          <include name="verifyCounterButtonClickable"/>
+          <include name="verifyIncrementButton"/>
+          <include name="Back"/>
+          <include name="verifyDecrementButton"/>
+        </methods>
+      </class> <!-- testScripts.Counter_01 -->
+      <class name="testScripts.Scale_Image_07">
+        <methods>
+          <include name="CaptureImage"/>
+          <include name="Image_Deduction"/>
+          <include name="Back"/>
+        </methods>
+      </class> <!-- testScripts.Scale_Image_07 -->
+      <class name="testScripts.Gesture_SDemo">
+        <methods>
+          <include name="Single_Tap"/>
+          <include name="Long_Tap"/>
+          <include name="Double_Tap"/>
+          <include name="Back"/>
+          <include name="Drag_And_Drop"/>
+        </methods>
+      </class> <!-- testScripts.Gesture_SDemo -->
+      <class name="testScripts.Countries_List_04">
+        <methods>
+          <include name="getCountriesList"/>
+        </methods>
+      </class> <!-- testScripts.Countries_List_04 -->
+      <class name="testScripts.ECHO_Message">
+        <methods>
+          <include name="TestBoxValidation"/>
+          <include name="echo_Message_btn"/>
+          <include name="Back"/>
+        </methods>
+      </class> <!-- testScripts.ECHO_Message -->
+    </classes>
+  </test> <!-- Functional_Tests(failed) -->
+</suite> <!-- Failed suite [Automation_Test_Suite] -->

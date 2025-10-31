@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <!-- Setup class -->
+      <class name="testScripts.TestSuiteSetup" />
+
+      <!-- Functional test cases -->
+      <class name="testScripts.Counter_01"/>
+      <class name="testScripts.ECHO_Message"/>
+       <class name="testScripts.Language_03"/>
+      <class name="testScripts.Alert"/>
+        <class name="testScripts.Scale_Image_07"/>
+        
+      <class name="testScripts.Gesture_SDemo"/>
+      <class name="testScripts.WebView"/>
+	 <class name="testScripts.Countries_List_04"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
