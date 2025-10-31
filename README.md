@@ -29,5 +29,13 @@ adb devices
 appium
 Starts the Appium server that connects your test scripts with mobile devices.
 
+7 .Verify device/emulator
+
+adb devices
+
+Start emulator from AVD Manager or connect real device (enable USB debugging)
+
+
+
 ---
 
