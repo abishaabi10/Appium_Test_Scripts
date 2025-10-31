@@ -1,17 +1,17 @@
-1) Install Node.js
+# Install Node.js
 *node -v
 *npm -v
 
 Node.js provides the runtime and npm package manager required to install Appium and its tools.
 
-2)Install Appium
+#Install Appium
 *npm install -g appium
-# verify
+  verify
 *appium -v
 
 This installs the Appium server globally so you can run the appium command from any terminal. Checking the version confirms the server binary was installed successfully.
 
-3) Install and run appium-doctor
+#Install and run appium-doctor
 
 *npm install -g appium-doctor
 # verify Android environment
@@ -19,15 +19,15 @@ This installs the Appium server globally so you can run the appium command from 
 
 appium-doctor scans your environment (Java, Android SDK, adb, etc.) and reports missing prerequisites.
 
-4) Install Java JDK & Android SDK and set environment variables
+#Install Java JDK & Android SDK and set environment variables
 
-5) Verify Android tools & devices
+#Verify Android tools & devices
 *adb version
 *adb devices
 
 adb version ensures platform-tools are installed and on PATH; adb devices lists connected/emulator devices so Appium can target them. If the device shows unauthorized, accept USB debugging on the device; if no devices appear, start an emulator or connect a phone.
 
-6) Start Appium server
+#Start Appium server
 
 *appium
 The appium command launches the Appium server that controls mobile devices for testing.
