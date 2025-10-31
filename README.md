@@ -1,6 +1,8 @@
 # Install Node.js
-*node -v
-*npm -v
+```bash
+node -v
+npm -v
+
 
 Node.js provides the runtime and npm package manager required to install Appium and its tools.
 
